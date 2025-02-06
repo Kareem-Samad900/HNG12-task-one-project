@@ -1,7 +1,7 @@
 export const checkPrimeNumber = (number) => {
   // check prime number
   let isPrime = true;
-  if (number === 0 || number === 1) {
+  if (number <= 0 || number === 1) {
     isPrime = false;
   }
 
@@ -16,7 +16,7 @@ export const checkPrimeNumber = (number) => {
 export const checkPerfectNumber = (number) => {
   // Check perfect number
   let isPerfectNumber = false;
-  if (number > 0) {
+  if (number > 0 && Math.abs(number) % 1 === 0) {
     let sumOfDivisors = 1;
     for (let i = 2; i * i <= number; i++) {
       if (number % i === 0) {

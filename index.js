@@ -16,18 +16,19 @@ app.use(cors());
 
 app.get("/api/classify-number", (req, res) => {
   const num = req.query.number;
+  console.log(num);
 
   try {
     if (isNaN(num)) {
       return res.status(400).json({
-        number: "alphabet",
+        number: num,
         error: "true",
       });
     }
 
     if (!Number.isInteger(Number(num))) {
       return res.status(400).json({
-        number: "invalid integer",
+        number: num,
         error: "true",
       });
     }
