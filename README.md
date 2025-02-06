@@ -72,7 +72,7 @@ The project involves development of a RESTFUL API that receives numbers as a que
 
 #### - API url
 
-> [my-domain.com/api/classify-numbernumber=345](my-domain.com/api/classify-numbernumber=345)
+> [https://hng-12-task-one-project.vercel.app/api/classify-number](https://hng-12-task-one-project.vercel.app/api/classify-number)
 
 #### - Json response
 
