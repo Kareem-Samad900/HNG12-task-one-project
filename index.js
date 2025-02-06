@@ -25,7 +25,7 @@ app.get("/api/classify-number", (req, res) => {
       });
     }
 
-    if (num < 0) {
+    if (!Number.isInteger(Number(num))) {
       return res.status(400).json({
         number: "invalid integer",
         error: "true",

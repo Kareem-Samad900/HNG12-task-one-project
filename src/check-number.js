@@ -43,4 +43,10 @@ export const getSumOfDigits = (number) => {
     }
   }
   return sumOfDigits;
+
+  // const sumOfDigits = Math.abs(number)
+  //   .toString()
+  //   .split("")
+  //   .reduce((sum, digit) => sum + Number(digit), 0);
+  // return sumOfDigits;
 };
