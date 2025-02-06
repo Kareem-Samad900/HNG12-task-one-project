@@ -39,31 +39,31 @@ The project involves development of a RESTFUL API that receives numbers as a que
   "is_prime": false,
   "is_perfect": false,
   "properties": ["armstrong", "odd"],
-  "digit_sum": 11, // sum of its digits
-  "fun_fact": "371 is an Armstrong number because 3^3 + 7^3 + 1^3 = 371" //gotten from the numbers API
+  "digit_sum": 11,
+  "fun_fact": "371 is an Armstrong number because 3^3 + 7^3 + 1^3 = 371"
 }
 ```
 
 ## Setup
 
-```json
-
 1. Clone the repository
-
+  ```
    git clone https://github.com/Kareem.Samad900/hng-task-one-project.git
+```
 
 2. Create an express server
-
-   npm install -y
+ ```
+  npm install -y
+```
 
 3. Install dependencies
-
+```
    npm install
+```
 
 4. Start the server
-
+```
    npm start
-
 ```
 
 ## API documentation
@@ -78,6 +78,6 @@ The project involves development of a RESTFUL API that receives numbers as a que
 
 ## Backlinks
 
-> #### [Nodejs Developers]()
+> #### [Stage-one-task](https://hng12.slack.com/archives/C08B3UKM0QN)
 
-> #### [Backend Track]()
+> #### [Backend Track](https://hng12.slack.com/archives/C088XGSSWVC)
